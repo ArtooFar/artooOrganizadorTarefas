@@ -43,4 +43,3 @@ with st.form(key="todo_form"):
 if st.session_state.get("todo_error"):
     st.warning(st.session_state["todo_error"])
 
-st.session_state
